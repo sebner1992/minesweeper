@@ -26,7 +26,7 @@ Additionally, your programm shall implement the following interface, where the r
 import java.io.File;
 
 public interface Assignment1 {
-	public long minesweep(File inputfile);
+	public long minesweep(File inputfile) throws Exception;
 }
 ```
 
