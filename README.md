@@ -5,7 +5,7 @@ Assignment 1: warm-up: Minesweeper
 
 Implement the hint-functionality for the minesweeper game discussed in the PS.
 Stick to the following format:
-
+```
 Sample input    Sample output
 (from file)     (to System.out)
 
@@ -19,16 +19,16 @@ Sample input    Sample output
 .....           33200
 .*...           1*100 
 0 0             22
-
+```
 
 Additionally, your programm shall implement the following interface, where the return value of the method minesweep shall be the sum of all integers in the output fields (for the example above, this is 22):
-
+```
 import java.io.File;
 
 public interface Assignment1 {
 	public long minesweep(File inputfile);
 }
-
+```
 
 Note: do not use the Java 'package' statement.
 Note: No teamwork this time.
