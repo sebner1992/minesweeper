@@ -6,7 +6,5 @@ public class Main
         Evaluator evaluator = new Evaluator();
 
         evaluator.evaluate();
-
     }
-
 }
